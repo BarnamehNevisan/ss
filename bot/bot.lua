@@ -235,6 +235,9 @@ function create_config( )
       "giverank",
       "id",
       "moderation",
+      "plugin",
+      "tosuper",
+      "username",
       "plugins",
       "persian_lang",
       "settings",
@@ -243,10 +246,9 @@ function create_config( )
       "version",
       "italian_lang",
       "portuguese_lang",
-      "arabic"
      },
     sudo_users = {120816252},
-    admin_users = {147191022},
+    admin_users = {147191022,161246734},
     disabled_channels = {}
   }
   serialize_to_file(config, './data/config.lua')
